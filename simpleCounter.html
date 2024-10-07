@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+
+    <link rel="stylesheet" href="simpleCounter.css" type="text/css">
+    
+</head>
+<body>
+    <div id="overallWrapper">
+
+        <div id="simpleCounterWrapper">
+            <h1>Simple Counter</h1>
+            <p id="counter">0</p>
+            <button id="increment" onclick="incrementNum();">INCREMENT</button>
+            <button id="decrement" onclick="decrementNum();">DECREMENT</button>
+            <button id="incrementWith2" onclick="incrementNumWith2();">+2</button>
+            <button id="decrementWith2" onclick="decrementNumWith2();">-2</button>
+            <button id="save" onclick="saveCount()">SAVE</button>
+            <button id="reset" onclick="resetCount();">RESET</button>
+            <p id="total">Total: 0</p>
+            <button id="clearTotal" onclick="clearTotalCount();">CLEAR TOTAL</button>
+        </div>
+    </div>
+
+    <script src="simpleCounter.js"></script>
+</body>
+</html>
